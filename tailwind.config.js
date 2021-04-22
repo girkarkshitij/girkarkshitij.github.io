@@ -8,6 +8,7 @@ module.exports = {
         light: '#CCD6F6',
         light2: '#62FCD7',
         medium: '#112240',
+        medium2: '#8892B0',
       },
     },
   },
