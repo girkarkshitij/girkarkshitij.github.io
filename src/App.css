@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-btn {
+  @apply pt-4 pr-10;
+}
+
+.nav-btn:focus {
+  @apply outline-none;
+}
+
+.nav-btn:hover {
+  @apply text-light2;
+}

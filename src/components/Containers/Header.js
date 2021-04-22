@@ -5,7 +5,7 @@ const Header = () => {
   const { name, role, aboutMe } = data;
 
   return (
-    <div className='box-border container bg-dark px-32 pb-28 pt-20 bg-dark'>
+    <div className='box-border container bg-dark px-32 pb-32 pt-16 bg-dark'>
       <h1 className='text-3xl text-light2 leading-relaxed'>
         Hi, my name is
         <br />

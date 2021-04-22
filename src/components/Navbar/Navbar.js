@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-dark text-light'>
+    <nav className='bg-dark text-light pr-16 pb-4'>
       <div className='flex justify-end'>
         <button
           className='focus:outline-none block p-4 lg:hidden hover:text-light2'
@@ -23,24 +23,16 @@ const Navbar = () => {
         }`}
       >
         <li>
-          <button className='focus:outline-none p-4 hover:text-light2'>
-            About
-          </button>
+          <button className='nav-btn'>About</button>
         </li>
         <li>
-          <button className='focus:outline-none p-4 hover:text-light2'>
-            Portfolio
-          </button>
+          <button className='nav-btn'>Portfolio</button>
         </li>
         <li>
-          <button className='focus:outline-none p-4 hover:text-light2'>
-            Contact
-          </button>
+          <button className='nav-btn'>Contact</button>
         </li>
         <li>
-          <button className='focus:outline-none p-4 hover:text-light2'>
-            Resume
-          </button>
+          <button className='nav-btn'>Resume</button>
         </li>
       </ul>
     </nav>
