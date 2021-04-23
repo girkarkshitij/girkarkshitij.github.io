@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,16 +24,24 @@ const Navbar = () => {
         }`}
       >
         <li>
-          <button className='nav-btn'>About</button>
+          <Link to='about' spy={true} smooth={true} className='nav-btn'>
+            About
+          </Link>
         </li>
         <li>
-          <button className='nav-btn'>Portfolio</button>
+          <Link to='portfolio' spy={true} smooth={true} className='nav-btn'>
+            Portfolio
+          </Link>
         </li>
         <li>
-          <button className='nav-btn'>Contact</button>
+          <Link to='contact' spy={true} smooth={true} className='nav-btn'>
+            Contact
+          </Link>
         </li>
         <li>
-          <button className='nav-btn'>Resume</button>
+          <Link to='resume' spy={true} smooth={true} className='nav-btn'>
+            Resume
+          </Link>
         </li>
       </ul>
     </nav>

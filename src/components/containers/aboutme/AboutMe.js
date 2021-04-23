@@ -6,7 +6,7 @@ const AboutMe = () => {
   const { skills } = data;
 
   return (
-    <div className=' container text-light bg-dark px-32 pb-32 pt-16'>
+    <div id='about' className=' container text-light bg-dark px-32 pb-32 pt-16'>
       <div className='flex divide-x divide-light2'>
         <div className=''>
           <h1 className='text-3xl h-2/4 text-light text-center pt-20 pr-8'>
