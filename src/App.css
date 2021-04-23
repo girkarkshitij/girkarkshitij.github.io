@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav-btn {
-  @apply pt-4 pr-10;
+  @apply pt-4 pr-10 block cursor-pointer;
 }
 
 .nav-btn:focus {
