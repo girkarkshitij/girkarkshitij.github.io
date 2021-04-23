@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-dark text-light pr-16 pb-4'>
+    <nav className='bg-dark sticky top-0 text-light pr-16 pb-4'>
       <div className='flex justify-end'>
         <button
           className='focus:outline-none block p-4 lg:hidden hover:text-light2'
