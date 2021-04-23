@@ -28,16 +28,34 @@ const data = {
   address: 'Mumbai, India',
   website: 'https://kshitijgirkar.me',
   skills: [
-    'Java',
-    'HTML5',
-    'CSS3',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Express.js',
-    'SQL',
-    'MongoDB',
-    'Git',
+    {
+      id: 1,
+      skill: 'React.js',
+    },
+    {
+      id: 2,
+      skill: 'Node.js',
+    },
+    {
+      id: 3,
+      skill: 'MongoDB',
+    },
+    {
+      id: 4,
+      skill: 'SQL',
+    },
+    {
+      id: 5,
+      skill: 'Git',
+    },
+    {
+      id: 6,
+      skill: 'Java',
+    },
+    {
+      id: 7,
+      skill: 'JavaScript',
+    },
   ],
   projects: [
     {
