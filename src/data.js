@@ -3,14 +3,14 @@ const data = {
   role: 'Full-Stack Developer',
   socialLinks: [
     {
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/girkarkshitij/',
-      className: 'fab fa-linkedin',
-    },
-    {
       name: 'github',
       url: 'http://github.com/girkarkshitij',
       className: 'fab fa-github',
+    },
+    {
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/girkarkshitij/',
+      className: 'fab fa-linkedin',
     },
     {
       name: 'twitter',
