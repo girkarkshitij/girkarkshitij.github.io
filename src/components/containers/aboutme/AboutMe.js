@@ -6,7 +6,7 @@ const AboutMe = () => {
   const { skills } = data;
 
   return (
-    <div id='about' className=' container text-light bg-dark px-32 pb-32 pt-16'>
+    <div id='about' className=' container text-light bg-dark px-32 pb-32 pt-24'>
       <div className='flex divide-x divide-light2'>
         <div className=''>
           <h1 className='text-3xl h-2/4 text-light text-center pt-20 pr-8'>
@@ -33,7 +33,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <div className='text-center text-lg p-8'>
+      <div className='text-center text-lg p-12 pt-20'>
         Technologies I'm working with
         <br />
         {skills.map((item) => {
