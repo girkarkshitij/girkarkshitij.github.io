@@ -58,23 +58,34 @@ const data = {
     },
   ],
   projects: [
+    // Project images in assets folder
     {
-      name: 'Contact Keeper',
+      name: 'Contact Manager',
       description:
-        'A full-stack contacts manager web-app used to store contact details. Front-end is built with React.js (Hooks and ContextAPI) and back-end is built using Node.js, Express.js, MongoDB, Mongoose and JWT authentication',
-      imgurl: 'images/portfolio/phone.jpg',
+        'A full-stack contacts manager used to store contact details. Front-end is built with React.js (Hooks and ContextAPI) and back-end is built using Node.js, Express.js, MongoDB, Mongoose and JWT authentication',
+      githuburl: 'https://github.com/girkarkshitij/contact-manager',
+      siteurl: 'https://contact-keeper-kshitij.herokuapp.com/',
+      techstack: [
+        'React.js',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'JWT Authentication',
+      ],
     },
     {
       name: 'Github Search App',
       description:
         'A React.js app to to search Github profiles using Github API. This app uses the Context API along with the React Hooks for state management.',
-      imgurl: 'images/portfolio/project.jpg',
-    },
-    {
-      name: 'Random Quote Machine',
-      description:
-        'A React.js app which uses an quote API to displays random quotes on each click',
-      imgurl: 'images/portfolio/project2.png',
+      githuburl: 'https://github.com/girkarkshitij/github-search-app',
+      siteurl: 'https://github-search-app-girkarkshitij.netlify.app/',
+      techstack: [
+        'React.js',
+        'Github API',
+        'React Router',
+        'React Hooks',
+        'Context API',
+      ],
     },
   ],
 };
