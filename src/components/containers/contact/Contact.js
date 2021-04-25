@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <div
       id='contact'
-      className='container text-light text-center bg-dark px-32 pb-8 pt-16'
+      className='container text-light text-center bg-dark px-32 pb-8 pt-8'
     >
-      <h1 className='text-3xl text-light pb-32'>Get in Touch</h1>
+      <h1 className='text-3xl text-light pb-24'>Get in Touch</h1>
       <h3 className='text-medium2 pb-8'>
         Want to discuss something or just want to say hi?
         <br /> My inbox is open for all
