@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <div
       id='contact'
-      className='container text-light text-center bg-dark px-32 pb-8 pt-8'
+      className='container text-light text-center bg-medium px-4 pt-8 pb-8 md:px-32 md:pt-20 md:pb-16'
     >
       <h1 className='text-3xl text-light pb-24'>Get in Touch</h1>
-      <h3 className='text-medium2 pb-8'>
+      <h3 className='text-lg md:text-xl text-medium2 pb-8'>
         Want to discuss something or just want to say hi?
         <br /> My inbox is open for all
       </h3>
