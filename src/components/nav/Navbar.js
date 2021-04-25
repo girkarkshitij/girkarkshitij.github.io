@@ -39,9 +39,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='resume' spy={true} smooth={true} className='nav-btn'>
+          <a
+            href='https://drive.google.com/file/d/1OIxs0nEM963AVNlCMOTS149v2brni6AF/view?usp=sharing'
+            className='nav-btn'
+            target='_blank'
+            rel='noreferrer'
+          >
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
