@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-dark sticky top-0 text-light pr-16 pb-4'>
+    <nav className='bg-dark sticky top-0 text-light pr-2 pb-2 sm:pb-4'>
       <div className='flex justify-end'>
         <button
           className='focus:outline-none block p-4 lg:hidden hover:text-light2'
@@ -19,8 +19,8 @@ const Navbar = () => {
         </button>
       </div>
       <ul
-        className={`lg:flex flex-row justify-end ${
-          isOpen ? 'block text-center' : 'hidden'
+        className={`lg:flex text-center flex-row justify-end ${
+          isOpen ? 'block' : 'hidden'
         }`}
       >
         <li>
