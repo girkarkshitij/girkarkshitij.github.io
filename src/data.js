@@ -23,8 +23,6 @@ const data = {
       className: 'fab fa-instagram',
     },
   ],
-  aboutMe:
-    "I'm pursuing Bachelors's in Computer Engineering from Mumbai University. I'm a passionate learner who's always willing to learn and work across technologies and domains.",
   address: 'Mumbai, India',
   website: 'https://kshitijgirkar.me',
   skills: [
