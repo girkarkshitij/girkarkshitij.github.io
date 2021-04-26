@@ -52,8 +52,8 @@ const Portfolio = () => {
         </div>
         <img
           src={contactProject}
-          className='w-full h-full lg:w-2/4 lg:h-2/4 pt-4'
-          alt=''
+          className='w-full h-full lg:w-2/4 lg:h-2/4 pt-8 lg:pt-0 lg:ml-8'
+          alt='Contact Manager project screenshot'
         />
       </div>
 
@@ -84,7 +84,7 @@ const Portfolio = () => {
           <ul className='pt-4 lg:pl-8'>
             {projects[1].techstack.map((item) => {
               return (
-                <li className='inline text-light2 pr-1 ,md:pr-3' key={item}>
+                <li className='inline text-light2 pr-1 md:pr-3' key={item}>
                   {item}
                 </li>
               );
@@ -93,8 +93,8 @@ const Portfolio = () => {
         </div>
         <img
           src={githubProject}
-          className='w-full h-full lg:w-2/4 lg:h-2/4 pt-4'
-          alt=''
+          className='w-full h-full lg:w-2/4 lg:h-2/4 pt-8 lg:pt-0'
+          alt='Github Search App project screenshot'
         />
       </div>
     </div>
