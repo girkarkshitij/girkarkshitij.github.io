@@ -44,7 +44,8 @@ const Portfolio = () => {
             {projects[0].techstack.map((item) => {
               return (
                 <li className='inline text-light2 pr-1 md:pr-3' key={item}>
-                  {item}
+                  <i className='fas fa-caret-right'></i>
+                  {' ' + item}
                 </li>
               );
             })}
@@ -85,7 +86,8 @@ const Portfolio = () => {
             {projects[1].techstack.map((item) => {
               return (
                 <li className='inline text-light2 pr-1 md:pr-3' key={item}>
-                  {item}
+                  <i className='fas fa-caret-right'></i>
+                  {' ' + item}
                 </li>
               );
             })}
