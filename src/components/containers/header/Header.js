@@ -8,7 +8,10 @@ const Header = () => {
   return (
     <div className='box-border container bg-dark pt-32 pb-16 pl-8 md:px-32 md:pb-48 md:pt-20'>
       <h1 className='text-xl md:text-3xl text-light2'>Hi, my name is</h1>
-      <h1 className='text-4xl md:text-7xl text-light py-4 md:py-8'>
+      <h1
+        translate='no'
+        className='text-4xl md:text-7xl text-light py-4 md:py-8'
+      >
         {' '}
         {name}
       </h1>{' '}

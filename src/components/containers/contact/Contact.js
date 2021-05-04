@@ -33,7 +33,10 @@ const Contact = () => {
       >
         <h5 className='pt-32'>
           Built by
-          <span className='text-light2'> Kshitij Girkar</span>
+          <span translate='no' className='text-light2'>
+            {' '}
+            Kshitij Girkar
+          </span>
         </h5>
       </a>
     </div>

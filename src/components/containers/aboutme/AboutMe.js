@@ -16,8 +16,9 @@ const AboutMe = () => {
         </h1>
         <div className='p-8 text-base md:text-xl text-medium2'>
           <p className='pb-4'>
-            Hello! My name is Kshitij Girkar and I'm pursuing a Bachelors's in
-            Computer Engineering from Mumbai University.
+            Hello! My name is <span translate='no'>Kshitij Girkar</span> and I'm
+            pursuing a Bachelors's in Computer Engineering from Mumbai
+            University.
           </p>
           <p className='pb-4'>
             I'm a passionate learner who's always willing to learn and work
