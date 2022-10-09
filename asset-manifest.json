@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c818f349.chunk.css",
-    "main.js": "/static/js/main.a980442e.chunk.js",
-    "main.js.map": "/static/js/main.a980442e.chunk.js.map",
+    "main.css": "/static/css/main.7502fc93.chunk.css",
+    "main.js": "/static/js/main.e23f8ef9.chunk.js",
+    "main.js.map": "/static/js/main.e23f8ef9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.14e0984b.js",
     "runtime-main.js.map": "/static/js/runtime-main.14e0984b.js.map",
     "static/js/2.8f260fbd.chunk.js": "/static/js/2.8f260fbd.chunk.js",
     "static/js/2.8f260fbd.chunk.js.map": "/static/js/2.8f260fbd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c818f349.chunk.css.map": "/static/css/main.c818f349.chunk.css.map",
+    "static/css/main.7502fc93.chunk.css.map": "/static/css/main.7502fc93.chunk.css.map",
     "static/js/2.8f260fbd.chunk.js.LICENSE.txt": "/static/js/2.8f260fbd.chunk.js.LICENSE.txt",
     "static/media/KshitijGirkar-logo.debb8bef.png": "/static/media/KshitijGirkar-logo.debb8bef.png",
     "static/media/contact-manager.ff8c460f.png": "/static/media/contact-manager.ff8c460f.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.14e0984b.js",
     "static/js/2.8f260fbd.chunk.js",
-    "static/css/main.c818f349.chunk.css",
-    "static/js/main.a980442e.chunk.js"
+    "static/css/main.7502fc93.chunk.css",
+    "static/js/main.e23f8ef9.chunk.js"
   ]
 }
