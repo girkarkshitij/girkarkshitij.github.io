@@ -3,12 +3,12 @@ import data from '../../../data';
 import SkillItem from './SkillItem';
 
 const AboutMe = () => {
-  const { skills } = data;
+  const {skills} = data;
 
   return (
     <div
       id='about'
-      className='container text-light bg-dark md: md:px-32 md:pb-32 md:pt-28'
+      className='text-light bg-dark md: md:px-32 md:pb-32 md:pt-28'
     >
       <div className='md:flex md:divide-x md:divide-light2'>
         <h1 className='text-3xl h-2/4 text-light text-center pt-20 md:pr-8'>

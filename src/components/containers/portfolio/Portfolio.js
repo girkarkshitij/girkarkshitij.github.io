@@ -5,12 +5,12 @@ import contactProject from '../../../assets/contact-manager.png';
 import githubProject from '../../../assets/github-search-app.png';
 
 const Portfolio = () => {
-  const { projects } = data;
+  const {projects} = data;
 
   return (
     <div
       id='portfolio'
-      className='container text-light bg-dark p-8 pt-24 md:px-32 md:pb-32 md:pt-16'
+      className='text-light bg-dark p-8 pt-24 md:px-32 md:pb-32 md:pt-16'
     >
       <h1 className='text-3xl h-2/4 text-light text-center pb-4 md:pb-16'>
         Portfolio
