@@ -14,7 +14,9 @@ const Navbar = () => {
     <nav className='bg-dark sticky top-0 text-light pr-2 pb-2 sm:pb-4'>
       <div className='flex justify-between lg:hidden'>
         <div>
-          <img src={logo} alt='logo' className='h-12 w-12 ml-8 mt-2' />
+          <Link to='header' spy={true} smooth={true}>
+            <img src={logo} alt='logo' className='cursor-pointer h-12 w-12 ml-8 mt-2' />
+          </Link>
         </div>
         <button
           className='focus:outline-none block p-4 lg:hidden hover:text-light2'
@@ -28,11 +30,13 @@ const Navbar = () => {
         `}
       >
         <div>
-          <img
-            src={logo}
-            alt='logo'
-            className='h-12 w-12 ml-8 mt-2 hidden lg:block'
-          />
+          <Link to='header' spy={true} smooth={true}>
+            <img
+              src={logo}
+              alt='logo'
+              className='cursor-pointer h-12 w-12 ml-8 mt-2 hidden lg:block'
+            />
+          </Link>
         </div>
         <div className={`lg:flex ${isOpen ? 'block' : 'hidden'}`}>
           <Link to='about' spy={true} smooth={true} className='nav-btn'>
