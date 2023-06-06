@@ -16,27 +16,20 @@ const AboutMe = () => {
         </h1>
         <div className='p-8 text-base md:text-xl text-medium2'>
           <p className='pb-4'>
-            Hello! My name is <span translate='no'>Kshitij Girkar</span> and I'm
-            pursuing a Bachelors's in Computer Engineering from Mumbai
-            University.
+            Currently I'm working at{' '}
+            <span className='text-light2'>Zeus Learning</span>. <br></br>I've
+            around <span className='text-light2'>~1 year</span> of professional
+            experience of Software Engineering.
           </p>
           <p className='pb-4'>
-            I'm a passionate learner who's always willing to learn and work
-            across technologies and domains. I love to explore new technologies.
-            I'm currently into Web Development and working on my Data Structures
-            and Algorithms
+            I have a knack for quickly understanding new concepts and finding
+            solutions to problems. I am passionate about writing clean,
+            efficient, and well-explained code.
           </p>
           <p className='pb-4'>
-            My interest in programming started back in 2016 when I had C++,
-            HTML/CSS in my class XI course. I started following web-development
-            tutorials from YouTube, Udemy, Coursera and built some projects.
-            Fast-forward to today, I can build a full stack app using MERN
-            stack.
-          </p>
-          <p className='pb-4'>
-            At university, I learnt Java. For competitive programming and
-            solving Data Structures - Algorithms problems I use Java. Besides, I
-            know Python, SQL, Git and Vim.
+            I am committed to keeping up with the latest technology trends and
+            best practices and eager to continue learning and growing in this
+            field.
           </p>
         </div>
       </div>
