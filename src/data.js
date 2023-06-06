@@ -1,6 +1,6 @@
 const data = {
   name: 'Kshitij Girkar',
-  role: 'Full-Stack Developer',
+  role: 'curious Software Engineer',
   socialLinks: [
     {
       name: 'github',
