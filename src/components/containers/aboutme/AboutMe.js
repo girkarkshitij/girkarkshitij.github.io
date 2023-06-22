@@ -16,7 +16,7 @@ const AboutMe = () => {
         </h1>
         <div className='p-8 text-base md:text-xl text-medium2'>
           <p className='pb-4'>
-            Currently I'm working at
+            Currently I'm working at{' '}
             <span className='text-light2'>Zeus Learning</span>. <br></br>I've
             around <span className='text-light2'>~1 year</span> of professional
             experience of Software Engineering.
