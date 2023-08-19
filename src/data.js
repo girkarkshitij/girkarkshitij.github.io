@@ -85,6 +85,18 @@ const data = {
         'Context API',
       ],
     },
+    {
+      name: 'Learn 3D Geometry with AR',
+      description: 'An Android app implemented in Kotlin, AR functionality added using ARCore and Sceneform. Used Firebase for backend.',
+      githuburl: 'https://github.com/girkarkshitij/GeometryAR',
+      siteurl: 'https://github.com/girkarkshitij/GeometryAR',
+      techstack: [
+        'Kotlin',
+        'Firebase',
+        'ARCore',
+        'Sceneform'
+      ]
+    }
   ],
 };
 
