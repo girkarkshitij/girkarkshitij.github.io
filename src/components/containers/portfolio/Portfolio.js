@@ -3,6 +3,7 @@ import data from '../../../data';
 
 import contactProject from '../../../assets/contact-manager.png';
 import githubProject from '../../../assets/github-search-app.png';
+import arProject from '../../../assets/ar-android.png';
 
 const Portfolio = () => {
   const {projects} = data;
@@ -99,6 +100,41 @@ const Portfolio = () => {
           alt='Github Search App project screenshot'
         />
       </div>
+
+      <div className='lg:flex pb-20 md:pb-16'>
+        <div className='text-center md:text-left'>
+          <h3 className='md:text-left text-light2 text-3xl pb-4'>
+            {projects[2].name}
+          </h3>
+          <p className='pb-4 pt-2 text-base md:text-xl text-medium2'>
+            {projects[2].description}
+          </p>
+          <a
+            href={projects[2].githuburl}
+            className='p-4 pl-0 hover:text-light2'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <i className='fab fa-github'></i>
+          </a>
+          <ul className='pt-4'>
+            {projects[2].techstack.map((item) => {
+              return (
+                <li className='inline text-light2 pr-1 md:pr-3' key={item}>
+                  <i className='fas fa-caret-right'></i>
+                  {' ' + item}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <img
+          src={arProject}
+          className='w-full h-full lg:w-2/4 lg:h-2/4 pt-8 lg:pt-0 lg:ml-8'
+          alt='Learn 3D geometry project screenshot'
+        />
+      </div>
+
     </div>
   );
 };
