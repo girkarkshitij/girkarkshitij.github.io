@@ -60,9 +60,9 @@ const data = {
     {
       name: 'Contact Manager',
       description:
-        'A full-stack contacts manager used to store contact details. Front-end is built with React.js and back-end is built using Node.js, Express.js, MongoDB and JWT authentication',
+        'A full-stack contact manager used to store contact details. Front-end is built with React.js and back-end is built using Node.js, Express.js, MongoDB and JWT authentication',
       githuburl: 'https://github.com/girkarkshitij/contact-manager',
-      siteurl: 'https://contact-keeper-kshitij.herokuapp.com/',
+      siteurl: 'https://contact-manager-mern-qelc.onrender.com/',
       techstack: [
         'React.js',
         'Node.js',
