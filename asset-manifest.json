@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f4dd5634.chunk.css",
-    "main.js": "/static/js/main.fe7b02d7.chunk.js",
-    "main.js.map": "/static/js/main.fe7b02d7.chunk.js.map",
+    "main.js": "/static/js/main.7adb959d.chunk.js",
+    "main.js.map": "/static/js/main.7adb959d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a704aec1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a704aec1.js.map",
     "static/js/2.d19a40e4.chunk.js": "/static/js/2.d19a40e4.chunk.js",
@@ -13,12 +13,13 @@
     "static/media/KshitijGirkar-logo.debb8bef.png": "/static/media/KshitijGirkar-logo.debb8bef.png",
     "static/media/ar-android.0258b4ab.png": "/static/media/ar-android.0258b4ab.png",
     "static/media/contact-manager.ff8c460f.png": "/static/media/contact-manager.ff8c460f.png",
-    "static/media/github-search-app.78613390.png": "/static/media/github-search-app.78613390.png"
+    "static/media/github-search-app.78613390.png": "/static/media/github-search-app.78613390.png",
+    "static/media/techshop.6a976a99.png": "/static/media/techshop.6a976a99.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a704aec1.js",
     "static/js/2.d19a40e4.chunk.js",
     "static/css/main.f4dd5634.chunk.css",
-    "static/js/main.fe7b02d7.chunk.js"
+    "static/js/main.7adb959d.chunk.js"
   ]
 }
