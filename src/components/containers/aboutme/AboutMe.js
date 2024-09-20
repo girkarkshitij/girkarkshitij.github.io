@@ -18,7 +18,7 @@ const AboutMe = () => {
           <p className='pb-4'>
             Currently I'm working at{' '}
             <span className='text-light2'>Zeus Learning</span>. <br></br>I've
-            around <span className='text-light2'>~1 year</span> of professional
+            around <span className='text-light2'>~2 years</span> of professional
             experience of Software Engineering.
           </p>
           <p className='pb-4'>
