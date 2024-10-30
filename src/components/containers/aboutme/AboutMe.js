@@ -3,7 +3,7 @@ import data from "../../../data";
 import SkillItem from "./SkillItem";
 
 const AboutMe = () => {
-  const { skills } = data;
+  const { role, skills, company } = data;
 
   return (
     <div
@@ -17,16 +17,15 @@ const AboutMe = () => {
         <div className="p-8 text-base md:text-xl text-medium2">
           <p className="pb-4">
             Currently I'm working at{" "}
-            <span className="text-light2">Zeus Learning</span>.
+            <span className="text-light2">{company}</span>.
           </p>
           <p className="pb-4">
-            I've around <span className="text-light2">2 years</span> of
-            professional experience of Software Engineering.
+            I've <span className="text-light2">2 years</span> of professional
+            experience of Software Engineering.
           </p>
           <p className="pb-4">
-            I'm a passionate{" "}
-            <span className="text-light2">Frontend Developer</span> with a focus
-            on creating dynamic, user-centric web applications using{" "}
+            I'm a passionate <span className="text-light2">{role}</span> with a
+            focus on creating dynamic, user-centric web applications using{" "}
             <span className="text-light2">ReactJS</span>. I bring a strong blend
             of technical expertise and creativity to build intuitive interfaces
             that enhance user engagement. Experienced in collaborating with
