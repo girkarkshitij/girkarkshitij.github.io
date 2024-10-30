@@ -17,11 +17,6 @@ const data = {
       url: "http://twitter.com/girkarkshitij",
       className: "fab fa-twitter",
     },
-    {
-      name: "instagram",
-      url: "https://www.instagram.com/kshitij_girkar/",
-      className: "fab fa-instagram",
-    },
   ],
   address: "Mumbai, India",
   website: "https://kshitijgirkar.me",
@@ -32,27 +27,31 @@ const data = {
     },
     {
       id: 2,
-      skill: "Node.js",
+      skill: "Redux",
     },
     {
       id: 3,
-      skill: "MongoDB",
+      skill: "JavaScript",
     },
     {
       id: 4,
-      skill: "SQL",
+      skill: "Node.js",
     },
     {
       id: 5,
-      skill: "Git",
+      skill: "SQL",
     },
     {
       id: 6,
-      skill: "Java",
+      skill: "Git",
     },
     {
       id: 7,
-      skill: "JavaScript",
+      skill: "Java",
+    },
+    {
+      id: 8,
+      skill: "MongoDB",
     },
   ],
   projects: [
