@@ -1,6 +1,7 @@
 const data = {
   name: "Kshitij Girkar",
-  role: "passionate Software Engineer",
+  role: "Frontend Developer",
+  company: "Zeus Learning",
   socialLinks: [
     {
       name: "github",
@@ -19,7 +20,6 @@ const data = {
     },
   ],
   address: "Mumbai, India",
-  website: "https://kshitijgirkar.me",
   skills: [
     {
       id: 1,
