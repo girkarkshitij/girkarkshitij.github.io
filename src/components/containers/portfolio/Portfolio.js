@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../../data";
 
 import contactProject from "../../../assets/contact-manager.png";
-import githubProject from "../../../assets/github-search-app.png";
+import aiProject from "../../../assets/ai-chat.png";
 import arProject from "../../../assets/ar-android.png";
 import techShopProject from "../../../assets/techshop.png";
 
@@ -130,9 +130,9 @@ const Portfolio = () => {
           </ul>
         </div>
         <img
-          src={arProject}
+          src={aiProject}
           className="w-full h-full lg:w-2/4 lg:h-2/4 pt-8 lg:pt-0 lg:ml-8"
-          alt="Learn 3D geometry project screenshot"
+          alt="AI Chat project screenshot"
         />
       </div>
 
@@ -172,9 +172,9 @@ const Portfolio = () => {
           </ul>
         </div>
         <img
-          src={githubProject}
+          src={arProject}
           className="w-full h-full lg:w-2/4 lg:h-2/4 pt-8 lg:pt-0"
-          alt="Github Search App project screenshot"
+          alt="Learn 3D Geometry project screenshot"
         />
       </div>
     </div>

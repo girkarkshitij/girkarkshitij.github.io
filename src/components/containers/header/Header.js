@@ -15,7 +15,7 @@ const Header = () => {
         {' '}
         {name}
       </h1>{' '}
-      <h3 className='text-xl md:text-7xl text-medium2 pb-8'>A {role}</h3>
+      <h3 className='text-xl md:text-7xl text-medium2 pb-8'>A passionate {role}</h3>
       <Link to='contact' spy={true} smooth={true} className='nav-btn'>
         <button className='text-light2 border-2 border-light hover:border-light2 focus:outline-none rounded p-2'>
           Get In Touch
