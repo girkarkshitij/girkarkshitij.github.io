@@ -20,20 +20,8 @@ const AboutMe = () => {
             <span className="text-light2">{company}</span>.
           </p>
           <p className="pb-4">
-            I've <span className="text-light2">2 years</span> of professional
-            experience of Software Engineering.
-          </p>
-          <p className="pb-4">
-            I'm a passionate <span className="text-light2">{role}</span> with a
-            focus on creating dynamic, user-centric web applications using{" "}
-            <span className="text-light2">ReactJS</span>. I bring a strong blend
-            of technical expertise and creativity to build intuitive interfaces
-            that enhance user engagement. Experienced in collaborating with
-            cross-functional teams to integrate RESTful APIs and deliver
-            responsive, accessible solutions. Adept at turning complex
-            requirements into seamless user experiences, with a proven track
-            record in Agile environments. Committed to continuous learning and
-            delivering high-quality code that drives business outcomes.
+            I am a Full-Stack Developer with {' '}
+             <span className="text-light2">2.5 years</span> of experience building and maintaining scalable web applications using React, Node.js, MongoDB, and MySQL. Skilled in designing RESTful APIs, writing robust test suites, optimizing frontend performance, and setting up CI/CD pipelines. Passionate about clean code, accessibility, and delivering smooth user experiences in fast-paced agile teams.
           </p>
           <p className="pb-4">
             I am committed to keeping up with the latest technology trends and

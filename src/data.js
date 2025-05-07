@@ -1,6 +1,6 @@
 const data = {
   name: "Kshitij Girkar",
-  role: "Frontend Developer",
+  role: "Software Engineer",
   company: "Zeus Learning",
   socialLinks: [
     {
@@ -35,23 +35,23 @@ const data = {
     },
     {
       id: 4,
-      skill: "Node.js",
+      skill: "TypeScript",
     },
     {
       id: 5,
-      skill: "SQL",
+      skill: "Node.js",
     },
     {
       id: 6,
-      skill: "Git",
+      skill: "SQL",
     },
     {
       id: 7,
-      skill: "Java",
+      skill: "MongoDB",
     },
     {
       id: 8,
-      skill: "MongoDB",
+      skill: "Git",
     },
   ],
   projects: [
@@ -71,26 +71,26 @@ const data = {
       ],
     },
     {
-      name: "Github Search App",
-      description:
-        "A React.js app to to search Github profiles using Github API. This app uses the Context API along with the React Hooks for state management.",
-      githuburl: "https://github.com/girkarkshitij/github-search-app",
-      siteurl: "https://github-search-app-girkarkshitij.netlify.app/",
-      techstack: [
-        "React.js",
-        "Github API",
-        "React Router",
-        "React Hooks",
-        "Context API",
-      ],
-    },
-    {
       name: "Learn 3D Geometry with AR",
       description:
         "An Android app implemented in Kotlin, AR functionality added using ARCore and Sceneform. Used Firebase for backend.",
       githuburl: "https://github.com/girkarkshitij/GeometryAR",
       siteurl: "https://github.com/girkarkshitij/GeometryAR",
       techstack: ["Kotlin", "Firebase", "ARCore", "Sceneform"],
+    },
+    {
+      name: "AI Chat Landing Page",
+      description:"Built a responsive landing page using React and Tailwind CSS with automated testing (Jest, React Testing Library) and CI/CD via GitHub Actions and Render.",
+      githuburl: "https://github.com/girkarkshitij/ai-chat-landing-page",
+      siteurl: "https://ai-chat-landing-page.onrender.com/",
+      techstack: [
+        "React.js",
+        "Tailwind CSS",
+        "Jest",
+        "React Testing Library",
+        "GitHub Actions",
+        "Render",
+      ],
     },
     {
       name: "TechShop : e-commerce",
