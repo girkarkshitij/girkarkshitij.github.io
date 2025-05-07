@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f4dd5634.chunk.css",
-    "main.js": "/static/js/main.0d451610.chunk.js",
-    "main.js.map": "/static/js/main.0d451610.chunk.js.map",
+    "main.js": "/static/js/main.ea563063.chunk.js",
+    "main.js.map": "/static/js/main.ea563063.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a704aec1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a704aec1.js.map",
     "static/js/2.d19a40e4.chunk.js": "/static/js/2.d19a40e4.chunk.js",
@@ -11,15 +11,15 @@
     "static/css/main.f4dd5634.chunk.css.map": "/static/css/main.f4dd5634.chunk.css.map",
     "static/js/2.d19a40e4.chunk.js.LICENSE.txt": "/static/js/2.d19a40e4.chunk.js.LICENSE.txt",
     "static/media/KshitijGirkar-logo.debb8bef.png": "/static/media/KshitijGirkar-logo.debb8bef.png",
-    "static/media/ai-chat.ae328772.png": "/static/media/ai-chat.ae328772.png",
+    "static/media/ai-chat.fedc5e51.png": "/static/media/ai-chat.fedc5e51.png",
     "static/media/ar-android.0258b4ab.png": "/static/media/ar-android.0258b4ab.png",
     "static/media/contact-manager.ff8c460f.png": "/static/media/contact-manager.ff8c460f.png",
-    "static/media/techshop.6a976a99.png": "/static/media/techshop.6a976a99.png"
+    "static/media/techshop.7616ff39.png": "/static/media/techshop.7616ff39.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a704aec1.js",
     "static/js/2.d19a40e4.chunk.js",
     "static/css/main.f4dd5634.chunk.css",
-    "static/js/main.0d451610.chunk.js"
+    "static/js/main.ea563063.chunk.js"
   ]
 }
