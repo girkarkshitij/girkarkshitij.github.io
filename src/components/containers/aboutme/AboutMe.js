@@ -3,7 +3,7 @@ import data from "../../../data";
 import SkillItem from "./SkillItem";
 
 const AboutMe = () => {
-  const { role, skills, company } = data;
+  const { skills, company } = data;
 
   return (
     <div
